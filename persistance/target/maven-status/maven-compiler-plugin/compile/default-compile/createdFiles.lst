@@ -1,0 +1,8 @@
+repository\BorrowRepository.class
+repository\AuthorRepository.class
+repository\BookRepository.class
+repository\IGenericRepository.class
+repository\BorrowerDetailsRepository.class
+repository\BorrowerRepository.class
+repository\GenericRepository.class
+repository\IBookRepository.class

@@ -1,0 +1,5 @@
+model\Borrower.class
+model\Author.class
+model\Borrow.class
+model\Book.class
+model\BorrowerDetail.class
