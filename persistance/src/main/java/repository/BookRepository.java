@@ -2,7 +2,7 @@ package repository;
 
 import model.Book;
 
-public class BookRepository extends GenericRepository<Book, Long> {
+public class BookRepository extends GenericRepository<Book, Long> implements IBookRepository {
 }
 
 

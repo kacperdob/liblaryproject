@@ -1,6 +1,7 @@
 package model;
 
 import javax.persistence.*;
+import java.util.Set;
 
 @Entity
 public class Author {
@@ -15,6 +16,9 @@ public class Author {
     private String lastName;
     @Column(name = "birth_place")
     private String birthPlace;
+
+    @OneToMany (mappedBy = "author", fetch = FetchType.EAGER)
+    private Set<Book> books;
 
     public Author() {
     }
